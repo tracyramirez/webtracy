@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Login</title>
+<title>Contact</title>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -33,6 +33,7 @@
 						<button type="submit" id="search_button" class="search_button"><img src="images/magnifying-glass.svg" alt=""></button>
 					</form>
 				</div>
+				
 
 			<div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm"><div></div><div></div><div></div></div>
 		</div>
@@ -69,11 +70,11 @@
 				<div class="col">
 					<div class="home_container">
 						<div class="home_content">
-							<div class="home_title">Contact</div>
+							<div class="home_title">Crear Producto</div>
 							<div class="breadcrumbs">
 								<ul>
 									<li><a href="index.html">Home</a></li>
-									<li>Contact</li>
+									<li>Crear Produto</li>
 								</ul>
 							</div>
 						</div>
@@ -83,15 +84,6 @@
 		</div>
 	</div>
 
-	<!-- Google Map -->
-		
-	<div class="map">
-		<div id="google_map" class="google_map">
-			<div class="map_container">
-				<div id="map"></div>
-			</div>
-		</div>
-	</div>
 	
 	<!-- Contact Form -->
 
@@ -100,13 +92,16 @@
 			<div class="row">
 				<div class="col">
 					<div class="review_form_container">
-						<div class="review_form_title">Escriba su correo para enviar datos.</div>
+						<div class="review_form_title">Ingrese datos del Producto</div>
 						<div class="review_form_content">
 							<form action="#" id="review_form" class="review_form">
 								<div class="d-flex flex-md-row flex-column align-items-start justify-content-between">
-                                    <input type="text" class="review_form_input" placeholder="Correo" required="required">
-                                    <button type="submit" class="review_form_button">Enviar</button>
+									<input type="text" class="review_form_input" placeholder="Nombre" required="required">
+									<input type="email" class="review_form_input" placeholder="Cantidad" required="required">
+									<input type="email" class="review_form_input" placeholder="Precio" required="required">
+									<input type="file" name="pic" accept="image/*" class="review_form_input">Seleccione la Imagen
 								</div>
+								<button type="submit" class="review_form_button">Aceptar</button>
 							</form>
 						</div>
 					</div>
@@ -115,6 +110,45 @@
 		</div>
 	</div>
 
+	<!-- Contact Text -->
+
+	<div class="contact_text">
+		<div class="container">
+			<div class="row">
+
+				<!-- Contact Info -->
+				<div class="col-lg-5">
+
+					<div class="contact_info">
+						<div class="contact_title">Informacion de Contacto</div>
+						<div class="contact_info_content">
+							<ul>
+								<li>
+									<div class="contact_info_icon"><img src="images/contact_info_1.png" alt=""></div>
+									<div class="contact_info_text">200 mts norte,25 mts oeste Iglesia catolica,Ciudad Quesada San Carlos</div>
+								</li>
+								<li>
+									<div class="contact_info_icon"><img src="images/contact_info_2.png" alt=""></div>
+									<div class="contact_info_text">reflexx@hotmail.com</div>
+								</li>
+								<li>
+									<div class="contact_info_icon"><img src="images/contact_info_3.png" alt=""></div>
+									<div class="contact_info_text"> 2460 2996</div>
+								</li>
+							</ul>
+						</div>
+						<div class="contact_info_social">
+							<ul>
+								
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+	</div>
 
 	<!-- Footer -->
 
@@ -122,22 +156,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div class="footer_logo"><a href="#">Wish</a></div>
+					<div class="footer_logo"><a href="#">Boutique Reflexx</a></div>
 					<nav class="footer_nav">
 						<ul>
-							<li><a href="index.html">Inicio</a></li>
+							<li><a href="index.html">home</a></li>
 							<li><a href="categories.html">clothes</a></li>
 							<li><a href="categories.html">accessories</a></li>
 							<li><a href="categories.html">lingerie</a></li>
-							<li><a href="contact.html">Login</a></li>
+							<li><a href="contact.html">contact</a></li>
 						</ul>
 					</nav>
 					<div class="footer_social">
 						<ul>
-							<li><a href="https://api.whatsapp.com/send?phone=50683134829&text=Estoy%20interesado%20en%20alguno%20de%20los%20productos"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-							<li><a href="https://www.instagram.com/reeflexxboutique/?hl=es-la"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a href="https://www.facebook.com/boutiquereeflexx/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 							
 						</ul>
 					</div>
